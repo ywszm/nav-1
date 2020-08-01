@@ -24,13 +24,13 @@ const hashMap = xObject || [
       "    <use xlink:href=\"#icon-juejin\"></use>\n" +
       "</svg>", url: "https://juejin.im/"
   },
-  { logo: "", url: "https://www.bootcdn.cn/" },
+  { logo: "B", url: "https://www.bootcdn.cn/" },
   {
     logo: "<svg class=\"icon\" aria-hidden=\"true\">\n" +
       "    <use xlink:href=\"#icon-zhihu\"></use>\n" +
       "</svg>", url: "https://www.zhihu.com/"
   },
-  { logo: "", url: "http://jsrun.net/" },
+  { logo: "J", url: "http://jsrun.net/" },
   {
     logo: "<svg class=\"icon\" aria-hidden=\"true\">\n" +
       "    <use xlink:href=\"#icon-code-sandbox-circle-\"></use>\n" +
@@ -46,7 +46,7 @@ const hashMap = xObject || [
       "    <use xlink:href=\"#icon-jquery-original\"></use>\n" +
       "</svg>", url: "https://www.jquery123.com/"
   },
-  { logo: "", url: "https://www.w3cways.com/css3-animation-tool" },
+  { logo: "W", url: "https://www.w3cways.com/css3-animation-tool" },
   {
     logo: "<svg class=\"icon\" aria-hidden=\"true\">\n" +
       "    <use xlink:href=\"#icon-HTML\"></use>\n" +
@@ -54,7 +54,7 @@ const hashMap = xObject || [
   },
   {
     logo: "<svg class=\"icon\" aria-hidden=\"true\">\n" +
-      "    <use xlink:href=\"#icon-xxx\"></use>\n" +
+      "    <use xlink:href=\"#icon-yuquemianlogo\"></use>\n" +
       "</svg>", url: "https://www.yuque.com/"
   },
 ];

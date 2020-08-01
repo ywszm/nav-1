@@ -138,13 +138,13 @@ var hashMap = xObject || [{
   logo: "<svg class=\"icon\" aria-hidden=\"true\">\n" + "    <use xlink:href=\"#icon-juejin\"></use>\n" + "</svg>",
   url: "https://juejin.im/"
 }, {
-  logo: "",
+  logo: "B",
   url: "https://www.bootcdn.cn/"
 }, {
   logo: "<svg class=\"icon\" aria-hidden=\"true\">\n" + "    <use xlink:href=\"#icon-zhihu\"></use>\n" + "</svg>",
   url: "https://www.zhihu.com/"
 }, {
-  logo: "",
+  logo: "J",
   url: "http://jsrun.net/"
 }, {
   logo: "<svg class=\"icon\" aria-hidden=\"true\">\n" + "    <use xlink:href=\"#icon-code-sandbox-circle-\"></use>\n" + "</svg>",
@@ -156,13 +156,13 @@ var hashMap = xObject || [{
   logo: "<svg class=\"icon\" aria-hidden=\"true\">\n" + "    <use xlink:href=\"#icon-jquery-original\"></use>\n" + "</svg>",
   url: "https://www.jquery123.com/"
 }, {
-  logo: "",
+  logo: "W",
   url: "https://www.w3cways.com/css3-animation-tool"
 }, {
   logo: "<svg class=\"icon\" aria-hidden=\"true\">\n" + "    <use xlink:href=\"#icon-HTML\"></use>\n" + "</svg>",
   url: "https://www.html.cn/tool/css3Preview/Border-Radius.html"
 }, {
-  logo: "<svg class=\"icon\" aria-hidden=\"true\">\n" + "    <use xlink:href=\"#icon-xxx\"></use>\n" + "</svg>",
+  logo: "<svg class=\"icon\" aria-hidden=\"true\">\n" + "    <use xlink:href=\"#icon-yuquemianlogo\"></use>\n" + "</svg>",
   url: "https://www.yuque.com/"
 }];
 
@@ -214,4 +214,4 @@ window.onbeforeunload = function () {
 //   }
 // });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.ca992554.js.map
+//# sourceMappingURL=main.2e177411.js.map
