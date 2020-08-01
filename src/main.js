@@ -3,8 +3,60 @@ const $lastLi = $siteList.find("li.last");
 const x = localStorage.getItem("x");
 const xObject = JSON.parse(x);
 const hashMap = xObject || [
-  { logo: "A", url: "https://www.acfun.cn" },
-  { logo: "B", url: "https://www.bilibili.com" },
+  {
+    logo: "<svg class=\"icon\" aria-hidden=\"true\">\n" +
+      "    <use xlink:href=\"#icon-CSSTricks\"></use>\n" +
+      "</svg>", url: "https://css-tricks.com/"
+  },
+  {
+    logo: "<svg class=\"icon\" aria-hidden=\"true\">\n" +
+      "    <use xlink:href=\"#icon-mozilla\"></use>\n" +
+      "</svg>", url: "https://developer.mozilla.org/zh-CN/"
+  },
+  {
+    logo: "<svg class=\"icon\" aria-hidden=\"true\">\n" +
+      "    <use xlink:href=\"#icon-github\"></use>\n" +
+      "</svg>", url: "https://github.com/"
+  },
+  { logo: "J", url: "https://jsbin.com/" },
+  {
+    logo: "<svg class=\"icon\" aria-hidden=\"true\">\n" +
+      "    <use xlink:href=\"#icon-juejin\"></use>\n" +
+      "</svg>", url: "https://juejin.im/"
+  },
+  { logo: "", url: "https://www.bootcdn.cn/" },
+  {
+    logo: "<svg class=\"icon\" aria-hidden=\"true\">\n" +
+      "    <use xlink:href=\"#icon-zhihu\"></use>\n" +
+      "</svg>", url: "https://www.zhihu.com/"
+  },
+  { logo: "", url: "http://jsrun.net/" },
+  {
+    logo: "<svg class=\"icon\" aria-hidden=\"true\">\n" +
+      "    <use xlink:href=\"#icon-code-sandbox-circle-\"></use>\n" +
+      "</svg>", url: "https://codesandbox.io/"
+  },
+  {
+    logo: "<svg class=\"icon\" aria-hidden=\"true\">\n" +
+      "    <use xlink:href=\"#icon-figma\"></use>\n" +
+      "</svg>", url: "https://www.figma.com/"
+  },
+  {
+    logo: "<svg class=\"icon\" aria-hidden=\"true\">\n" +
+      "    <use xlink:href=\"#icon-jquery-original\"></use>\n" +
+      "</svg>", url: "https://www.jquery123.com/"
+  },
+  { logo: "", url: "https://www.w3cways.com/css3-animation-tool" },
+  {
+    logo: "<svg class=\"icon\" aria-hidden=\"true\">\n" +
+      "    <use xlink:href=\"#icon-HTML\"></use>\n" +
+      "</svg>", url: "https://www.html.cn/tool/css3Preview/Border-Radius.html"
+  },
+  {
+    logo: "<svg class=\"icon\" aria-hidden=\"true\">\n" +
+      "    <use xlink:href=\"#icon-xxx\"></use>\n" +
+      "</svg>", url: "https://www.yuque.com/"
+  },
 ];
 const simplifyUrl = (url) => {
   return url
